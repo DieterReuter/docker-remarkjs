@@ -30,3 +30,24 @@ Notes for the _first_ slide!
 --
 
 * Bullet 3
+
+---
+
+## Install Docker
+
+- Install the Containers feature
+
+- Install and start the Docker service
+
+.exercise[
+- Install Docker and feature with Microsoft's package:
+  ```powershell
+  Install-Module -Name DockerMsftProvider -Repository PSGallery -Force
+  Install-Package -Name docker -ProviderName DockerMsftProvider
+  Restart-Computer -Force
+  ```
+]
+
+.warning[
+  Just a warning sign!
+]
