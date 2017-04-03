@@ -51,3 +51,15 @@ Notes for the _first_ slide!
 .warning[
   Just a warning sign!
 ]
+
+---
+
+background-image: url(images/docker-windows.png)
+
+## Docker Windows whale
+
+---
+
+## Docker Windows whale
+
+![background-image](images/docker-windows.png)
