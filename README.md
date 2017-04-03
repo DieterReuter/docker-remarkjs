@@ -30,3 +30,8 @@ $ cd slides
 $ open index.html
 ```
 
+### Use a webserver
+```
+$ python -m SimpleHTTPServer 8001
+$ open http://localhost:8001
+```
