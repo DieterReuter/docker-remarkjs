@@ -36,3 +36,12 @@ $ open index.html
 $ python -m SimpleHTTPServer 8001
 $ open http://localhost:8001
 ```
+
+
+## Build and use Docker image
+```
+$ docker build -t slides .
+
+$ docker run -d -p 8000:80 slides
+$ open http://localhost:8000
+```
