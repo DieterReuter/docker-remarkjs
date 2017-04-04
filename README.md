@@ -44,4 +44,6 @@ $ docker build -t slides .
 
 $ docker run -d -p 8000:80 slides
 $ open http://localhost:8000
+
+$ docker run --rm -ti -v $(pwd):/data -v $(pwd)/slides:/var/www -p 8000:80 slides
 ```
